@@ -26,4 +26,8 @@ public class Cat extends Mammal{
     public String Breathe() {
         return null;
     }
+
+    public String Purr(){
+        return "Puuuurrrrr";
+    }
 }

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AnimalTests {
 
     @Test
-    void EatTest(){
+    public void EatTest(){
         Cat c = new Cat();
         c.setSize(10);
         c.eat("food");
