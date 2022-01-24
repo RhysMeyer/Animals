@@ -17,6 +17,7 @@ public class AnimalTests {
 
     }
 
+    @Test
     public void AgeTest(){
         Bat b = new Bat();
         b.setAge(10);
