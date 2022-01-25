@@ -6,4 +6,11 @@ abstract class Bird extends Animal{
     {
         return ("Breathes like bird");
     }
+
+    public void eat(String food){
+        this.setWeight(this.getWeight()+2);
+    }
+    public Animal Reproduce() {
+        return null;
+    }
 }

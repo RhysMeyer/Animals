@@ -1,4 +1,6 @@
 package com.TSI.Rhys.Meyer.Animals;
 
-public class Penguin {
+public class Penguin extends Bird {
+
+
 }
