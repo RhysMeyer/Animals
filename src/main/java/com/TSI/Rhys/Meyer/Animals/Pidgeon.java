@@ -9,18 +9,19 @@ public class Pidgeon extends Bird implements Flying{
     }
 
     @Override
-    public void takeoff() {
+    public String takeoff() {
+        return "takeoff";
 
     }
 
     @Override
-    public void landing() {
-
+    public String landing() {
+        return "landing";
     }
 
     @Override
-    public void flight() {
-
+    public String flight() {
+        return "flight";
     }
 
     public String Hunt(){

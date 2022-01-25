@@ -53,5 +53,32 @@ public class AnimalTests {
 
     }
 
+    @Test
+    public void TakeoffTest(){
+        Pidgeon pi = new Pidgeon();
+        Bat b = new Bat();
+        assertEquals("takeoff",pi.takeoff(),"No takeoff");
+        assertEquals("takeoff",b.takeoff(),"No takeoff");
+
+    }
+
+    @Test
+    public void LandingTest(){
+        Pidgeon pi = new Pidgeon();
+        Bat b = new Bat();
+        assertEquals("landing",pi.landing(),"No landing");
+        assertEquals("landing",b.landing(),"No landing");
+
+    }
+
+    @Test
+    public void FlightTest(){
+        Pidgeon pi = new Pidgeon();
+        Bat b = new Bat();
+        assertEquals("flight",pi.flight(),"No flight");
+        assertEquals("flight",b.flight(),"No flight");
+
+    }
+
 
 }
