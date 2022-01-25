@@ -27,7 +27,7 @@ public class Cat extends Mammal{
 //        return null;
 //    }
 
-    public String Purr(){
-        return "Puuuurrrrr";
+    public String Hunt(){
+        return "Catch Mouse";
     }
 }

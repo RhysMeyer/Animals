@@ -22,6 +22,8 @@ public abstract class Animal {
         //this.wait(time);
     }
 
+    public abstract String Hunt();
+
     public abstract Animal Reproduce();
 
     public abstract String Breathe();
