@@ -17,6 +17,17 @@ abstract class Mammal extends Animal {
     ///////////////////////////////////Methods/////////////////////////////////////////////
 
     public void eat(String food){
-        this.setSize(this.getSize()+1);
+        this.setWeight(this.getWeight()+1);
+    }
+
+    public String Breathe()
+    {
+        return ("Breathes like mammal");
+    }
+
+    public Animal Reproduce()
+    {
+        return null;
     }
 }
+

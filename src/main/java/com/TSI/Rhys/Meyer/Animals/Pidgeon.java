@@ -1,4 +1,4 @@
 package com.TSI.Rhys.Meyer.Animals;
 
-public class Pidgeon {
+public class Pidgeon extends Mammal{
 }

@@ -17,15 +17,15 @@ public class Cat extends Mammal{
     ///////////////////////////////////Methods/////////////////////////////////////////////
 
 
-    @Override
-    public Animal reproduce() {
-        return null;
-    }
-
-    @Override
-    public String Breathe() {
-        return null;
-    }
+//    @Override
+//    public Animal reproduce() {
+//        return null;
+//    }
+//
+//    @Override
+//    public String Breathe() {
+//        return null;
+//    }
 
     public String Purr(){
         return "Puuuurrrrr";

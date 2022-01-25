@@ -4,7 +4,7 @@ public abstract class Animal {
 
     ////////////////////////////////////Attributes///////////////////////////////////
     private int age;
-    private int size;
+    private int weight;
 
 
 
@@ -22,7 +22,7 @@ public abstract class Animal {
         //this.wait(time);
     }
 
-    public abstract Animal reproduce();
+    public abstract Animal Reproduce();
 
     public abstract String Breathe();
 
@@ -43,12 +43,12 @@ public abstract class Animal {
     }
 
 
-    public int getSize(){
-        return size;
+    public int getWeight(){
+        return weight;
     }
 
-    public void setSize(int size)
+    public void setWeight(int size)
     {
-        this.size = size;
+        this.weight = size;
     }
 }
