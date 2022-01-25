@@ -24,6 +24,6 @@ public class Pidgeon extends Bird implements Flying{
     }
 
     public String Hunt(){
-        return "Catches Worms";
+        return "Catch Worms";
     }
 }

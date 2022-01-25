@@ -35,8 +35,8 @@ public class AnimalTests {
         Penguin pe = new Penguin();
         assertEquals("Breathes like bird",pi.Breathe(),"This Pidgeon is not breathing");
         assertEquals("Breathes like bird",pe.Breathe(),"This Penguin is not breathing");
-        assertEquals("Breathes like bird",c.Breathe(),"This Cat is not breathing");
-        assertEquals("Breathes like bird",b.Breathe(),"This Bat is not breathing");
+        assertEquals("Breathes like mammal",c.Breathe(),"This Cat is not breathing");
+        assertEquals("Breathes like mammal",b.Breathe(),"This Bat is not breathing");
 
     }
 
@@ -48,8 +48,8 @@ public class AnimalTests {
         Penguin pe = new Penguin();
         assertEquals("Catch Worms",pi.Hunt(),"Wrong Food for Pidgeon");
         assertEquals("Catch Fish",pe.Hunt(),"Wrong Food for Penguin");
-        assertEquals("Catch Mouse",b.Hunt(),"Wrong Food for Bat");
-        assertEquals("Catch Bugs",c.Hunt(),"Wrong Food for Cat");
+        assertEquals("Catch Bugs",b.Hunt(),"Wrong Food for Bat");
+        assertEquals("Catch Mouse",c.Hunt(),"Wrong Food for Cat");
 
     }
 
