@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Bat,4,3,0,0,2,1,2,1,2,1
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Cat,6,3,0,0,3,1,3,1,3,1
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Pidgeon,3,0,0,0,1,0,1,0,1,0
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Main,4,0,0,0,2,0,2,0,2,0
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Bird,3,0,0,0,1,0,1,0,1,0
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Mammal,0,10,0,0,0,3,0,2,0,2
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Animal,4,17,0,0,3,7,3,5,3,5
+AnimalTestProject,com.TSI.Rhys.Meyer.Animals,Penguin,3,0,0,0,1,0,1,0,1,0
