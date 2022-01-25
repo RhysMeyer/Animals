@@ -27,6 +27,7 @@ public class AnimalTests {
 
     }
 
+    @Test
     public void BreathingTest(){
         Pidgeon pi = new Pidgeon();
         Cat c = new Cat();
@@ -39,6 +40,7 @@ public class AnimalTests {
 
     }
 
+    @Test
     public void Hunting(){
         Pidgeon pi = new Pidgeon();
         Cat c = new Cat();
@@ -50,4 +52,6 @@ public class AnimalTests {
         assertEquals("Catch Bugs",c.Hunt(),"Wrong Food for Cat");
 
     }
+
+
 }
