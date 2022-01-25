@@ -16,6 +16,10 @@ public class AnimalTests {
         c.setWeight(10);
         c.eat("food");
         assertEquals(11,c.getWeight(),"This cat's size is too big");
+        Pidgeon p = new Pidgeon();
+        p.setWeight(10);
+        p.eat("food");
+        assertEquals(12,p.getWeight(),"This Pidgeon's size is too big");
 
     }
 
@@ -24,6 +28,9 @@ public class AnimalTests {
         Bat b = new Bat();
         b.setAge(10);
         assertEquals(10,b.getAge(),"This Bat's age isnt right");
+        Cat c = new Cat();
+        c.setAge(10);
+        assertEquals(10,c.getAge(),"This Cat's age isnt right");
 
     }
 
